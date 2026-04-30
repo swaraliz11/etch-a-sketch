@@ -2,9 +2,12 @@
     height: 750px;
     width: 1000px;
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box {
     border: solid black;
+    box-sizing: border-box;
 }
 
