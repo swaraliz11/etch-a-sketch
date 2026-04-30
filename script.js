@@ -13,3 +13,8 @@ for (let i = 0; i < 16; i++) {
 function changeColor(div) {
     div.style.backgroundColor = "lightblue";
 }
+
+let boxes = document.getElementsByClassName("box");
+for (let i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener('mouseover', () => changeColor(boxes[i]));
+}
