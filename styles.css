@@ -1,0 +1,10 @@
+#container {
+    height: 750px;
+    width: 1000px;
+    border: solid black;
+}
+
+.box {
+    border: solid black;
+}
+
