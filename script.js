@@ -22,3 +22,6 @@ function hoverEffect() {
         boxes[i].addEventListener('mouseover', () => changeColor(boxes[i]));
     }
 }
+
+generateGrid(16);
+hoverEffect();
