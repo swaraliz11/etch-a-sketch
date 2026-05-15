@@ -25,3 +25,13 @@ function hoverEffect() {
 
 generateGrid(16);
 hoverEffect();
+
+function createNewGrid(squares) {
+    let oldContainer = document.getElementById("container");
+    oldContainer.remove();
+    let newContainer = document.createElement("div");
+    newContainer.id = "container";
+    document.getElementById("body").appendChild(newContainer);
+    generateGrid(squares);
+    hoverEffect();
+}
