@@ -11,3 +11,7 @@ function generateGrid(squares) {
         }
     }
 }
+
+function changeColor(div) {
+    div.style.backgroundColor = "lightblue";
+}
