@@ -35,3 +35,7 @@ function createNewGrid(squares) {
     generateGrid(squares);
     hoverEffect();
 }
+
+document.getElementById("btn").addEventListener('click', () => {
+    let squares = prompt("Number of squares per side: ");
+})
