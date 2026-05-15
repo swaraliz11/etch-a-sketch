@@ -13,7 +13,7 @@ function generateGrid(squares) {
 }
 
 function changeColor(div) {
-    div.style.backgroundColor = "lightblue";
+    div.style.backgroundColor = "#440D0F";
 }
 
 function hoverEffect() {
