@@ -15,3 +15,10 @@ function generateGrid(squares) {
 function changeColor(div) {
     div.style.backgroundColor = "lightblue";
 }
+
+function hoverEffect() {
+    let boxes = document.getElementsByClassName("box");
+    for (let i = 0; i < boxes.length; i++) {
+        boxes[i].addEventListener('mouseover', () => changeColor(boxes[i]));
+    }
+}
