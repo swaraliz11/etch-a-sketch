@@ -38,4 +38,5 @@ function createNewGrid(squares) {
 
 document.getElementById("btn").addEventListener('click', () => {
     let squares = prompt("Number of squares per side: ");
+    createNewGrid(squares);
 })
